@@ -23,7 +23,7 @@ services:
         condition: on-failure
 
   postgres_service:
-    image: postgres:15.1
+    image: postgres:15.2
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
