@@ -12,7 +12,7 @@ services:
         condition: on-failure
 
   httpd_service:
-    image: httpd:2.4.56
+    image: httpd:2.4.55
     ports:
       - "8080:80"
     networks:
