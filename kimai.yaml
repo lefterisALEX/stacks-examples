@@ -2,7 +2,7 @@ version: '3.5'
 services:
  
   sqldb:
-    image: mysql:8.3
+    image: mysql:8.2
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
